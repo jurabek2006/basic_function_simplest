@@ -5,4 +5,14 @@
 // ***
 // ****
 // *****
-void main() {}
+printEvenNumbers() {
+    print('*');
+    print('**');
+    print('***');
+    print('****');
+    print('*****');
+}
+
+void main() {
+    print(printEvenNumbers());
+}
